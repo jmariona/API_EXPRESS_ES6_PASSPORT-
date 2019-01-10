@@ -1,6 +1,6 @@
 const BOOT = app => {
-	const PORT = 4000;
-	app.listen(4000, () =>
+	const { PORT } = process.env;
+	app.listen(PORT, () =>
 		console.log(`Server Runnig On http://localhost:${PORT}`)
 	);
 };
