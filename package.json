@@ -3,9 +3,13 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "dev": "nodemon --exec babel-node ./dev/server.js"
+  },
   "dependencies": {
     "@babel/cli": "^7.2.3",
     "@babel/core": "^7.2.2",
+    "@babel/node": "^7.2.2",
     "@babel/preset-env": "^7.2.3",
     "body-parser": "^1.18.3",
     "dotenv": "^6.2.0",
