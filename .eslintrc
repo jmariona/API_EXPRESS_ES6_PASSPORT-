@@ -34,7 +34,7 @@
       ],
       "linebreak-style": [
           "error",
-          "crlf"
+          "windows"
       ],
       "quotes": [
           "error",
