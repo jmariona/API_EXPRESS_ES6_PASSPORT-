@@ -1,0 +1,52 @@
+{
+  "env": {
+      "browser": true,
+      "commonjs": true,
+      "es6": true,
+      "node": true,
+      "jquery": true
+  },
+ 
+  "extends":[ "eslint:recommended", "airbnb-base", "prettier"],
+  "parserOptions": {
+      "ecmaVersion": 7,
+      "esversion": 7,
+      "sourceType": "module",
+      "ecmaFeatures": {
+          "experimentalObjectRestSpread": true,
+          "impliedStrict": true,
+          "classes": true
+      }
+      
+  },
+
+  "rules": {
+      "no-unused-vars":[
+          1,
+          {
+              "argsIgnorePattern": "res|next|^err"
+          }
+      ],
+
+      "indent": [
+          "error",
+          "tab"
+      ],
+      "linebreak-style": [
+          "error",
+          "crlf"
+      ],
+      "quotes": [
+          "error",
+          "single"
+      ],
+      "semi": [
+          "error",
+          "always"
+      ]
+  },
+  "plugins":[
+      "prettier",
+      "import"
+    ]
+}

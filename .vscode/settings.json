@@ -1,0 +1,16 @@
+{
+  "editor.fontWeight": "bold",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.wordWrap": "on",
+  "editor.fontSize": 14,
+  "editor.tabSize": 2,
+  "prettier.jsxBracketSameLine": true,
+  "prettier.useTabs": true,
+  "prettier.eslintIntegration": true,
+  "[javascript]":{
+    "editor.formatOnSave": true
+  },
+  "eslint.autoFixOnSave": true,
+  "eslint.alwaysShowStatus": true
+
+}
